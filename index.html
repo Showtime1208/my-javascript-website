@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andres Matton-Conover - Computer Science Student</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1 class="logo">Andres Matton-Conover</h1>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#interests" class="nav-link">Interests</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Hi, I'm Andres Matton-Conover</h2>
+                <p>3rd Year Computer Science Student at Northeastern University</p>
+                <button class="cta-button" id="ctaBtn">Learn More About Me</button>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a passionate 3rd year Computer Science student at Northeastern University, where I'm developing my skills in software development, algorithms, and problem-solving.</p>
+                        <p>When I'm not coding, you can find me cooking up new recipes, playing video games, or staying active through various sports. I believe in the power of technology to solve real-world problems and am excited to contribute to the field.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3 id="visitorCount">0</h3>
+                            <p>Visitors</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>Responsive</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Fast</h3>
+                            <p>Performance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="interests" class="services">
+            <div class="container">
+                <h2>My Interests</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🍳</div>
+                        <h3>Cooking</h3>
+                        <p>I love experimenting with new recipes and techniques in the kitchen. From traditional dishes to fusion cuisine, cooking is my creative outlet.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🎮</div>
+                        <h3>Video Games</h3>
+                        <p>Gaming is both entertainment and inspiration. I enjoy everything from strategy games to RPGs, and I'm fascinated by game development.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">⚽</div>
+                        <h3>Sports</h3>
+                        <p>Staying active through sports keeps me balanced. Whether it's team sports or individual activities, I believe in the importance of physical fitness.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <p>I'm always interested in connecting with fellow students, potential collaborators, or anyone who shares similar interests!</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <span class="contact-icon">📧</span>
+                                <span>andresmattonconover@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">📞</span>
+                                <span>908-300-7633</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">📍</span>
+                                <span>Boston, MA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Andres Matton-Conover. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
