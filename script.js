@@ -66,8 +66,7 @@ function initContactForm() {
     const contactForm = document.getElementById('contactForm');
     
     // Initialize EmailJS with your public key
-    // You'll need to replace 'YOUR_PUBLIC_KEY' with your actual EmailJS public key
-    emailjs.init('YOUR_PUBLIC_KEY');
+    emailjs.init('kDtRhfQi4B4cfswkL');
     
     contactForm.addEventListener('submit', function(e) {
         e.preventDefault();
@@ -100,17 +99,17 @@ function initContactForm() {
             from_name: name,
             from_email: email,
             message: message,
-            to_email: 'andresmattonconover@gmail.com'
+            to_email: 'andresmattonconover@outlook.com'
         };
         
         // Send email using EmailJS
-        emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
+        emailjs.send('service_9ughws3', 'template_ql6eeii', templateParams)
             .then(function(response) {
                 showNotification('Thank you for your message! I\'ll get back to you soon.', 'success');
                 contactForm.reset();
             }, function(error) {
                 console.error('EmailJS Error:', error);
-                showNotification('Sorry, there was an error sending your message. Please try again or contact me directly at andresmattonconover@gmail.com', 'error');
+                showNotification('Sorry, there was an error sending your message. Please try again or contact me directly at andresmattonconover@outlook.com', 'error');
             })
             .finally(function() {
                 // Reset button state

@@ -188,7 +188,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 📞 Contact
 
 **Andres Matton-Conover**
-- Email: andresmattonconover@gmail.com
+- Email: andresmattonconover@outlook.com
 - Phone: 908-300-7633
 - Location: Boston, MA
 
