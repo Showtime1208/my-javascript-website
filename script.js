@@ -154,11 +154,11 @@ function showNotification(message, type = 'info') {
         word-wrap: break-word;
     `;
     
-    // Set background color based on type
+    // Set monochrome background color based on type
     const colors = {
-        success: '#27ae60',
-        error: '#e74c3c',
-        info: '#3498db'
+        success: '#111',
+        error: '#000',
+        info: '#222'
     };
     notification.style.backgroundColor = colors[type] || colors.info;
     
@@ -286,8 +286,8 @@ function initCTAButton() {
 window.addEventListener('scroll', function() {
     const header = document.querySelector('header');
     if (window.scrollY > 100) {
-        header.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
-        header.style.backdropFilter = 'blur(10px)';
+        header.style.backgroundColor = 'rgba(255, 255, 255, 0.96)';
+        header.style.backdropFilter = 'blur(6px)';
     } else {
         header.style.backgroundColor = '#fff';
         header.style.backdropFilter = 'none';
