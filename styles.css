@@ -94,7 +94,10 @@ header {
 
 /* Hero Section */
 .hero {
-    background: #0f0f10;
+    background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('assets/boston-skyline.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #fff;
     padding: 120px 0 80px;
     text-align: center;
@@ -153,7 +156,7 @@ header {
 
 .about-content {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     gap: 4rem;
     align-items: center;
 }
@@ -162,6 +165,16 @@ header {
     font-size: 1.1rem;
     margin-bottom: 1.5rem;
     color: #333;
+}
+
+.about-photo {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 2px;
+    border: 1px solid #000;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
 }
 
 .about-stats {

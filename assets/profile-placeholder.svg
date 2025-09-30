@@ -1,0 +1,8 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Profile Placeholder</title>
+  <desc id="desc">Monochrome placeholder silhouette for a profile photo</desc>
+  <rect width="400" height="400" fill="#111"/>
+  <circle cx="200" cy="150" r="70" fill="#fff"/>
+  <rect x="85" y="240" width="230" height="110" rx="6" fill="#fff"/>
+</svg>
+
