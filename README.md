@@ -2,9 +2,6 @@
 
 A modern, responsive personal portfolio website built with vanilla JavaScript, HTML5, and CSS3. This website showcases my background as a Computer Science student at Northeastern University and highlights my interests in cooking, gaming, and sports.
 
-## 🚀 Live Demo
-
-Visit the website at: [Your Live URL Here]
 
 ## ✨ Features
 
